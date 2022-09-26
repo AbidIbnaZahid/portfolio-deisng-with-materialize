@@ -1,0 +1,538 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+   color: #333;
+   /* background-color: #ebe9eb96; */
+   background-color: #efefefad;
+   transition: 0.4s;
+}
+ul{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+span{
+    font-weight: 700;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+nav{
+        position: absolute;
+  background-color: #ee6e7300;
+  z-index: 1;
+}
+nav img{
+    border-style: none;
+    width: 59px;
+    border-radius: 30px;
+}
+nav h4{
+    position: absolute;
+    top: -18px;
+    left: 71px;
+    font-size: 21px;
+    color: #333;
+}
+nav h6{
+    position: absolute;
+    top: 22px;
+    left: 71px;
+    font-size: 16px;
+    color: #333;
+}
+nav li{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Raleway';
+    
+}
+nav li a{
+color: #333;
+}
+.carousel {
+    height: 1148px;
+}
+nav ul a:hover {
+     background-color: rgba(0,0,0,0.0); 
+    text-decoration: line-through;
+}
+/* .navbar{
+    position: absolute; 
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1;
+}
+.navbar ul{
+
+}
+.navbar img{
+border-radius: 50% !important;
+}
+.navbar a h4 {
+    display: inline-block;
+    position: relative;
+    top: -8px;
+}
+.navbar a h6 {
+    position: absolute;
+    top: 58px;
+    left: 383px;
+    font-size: 17px;
+}
+.navbar ul li{
+    font-size: 21px;
+    font-weight: 300;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 0 20px;
+    
+}
+.navbar ul li a{
+    transition: .5s;
+}
+.navbar ul li a:hover{
+    text-decoration: line-through;
+} */
+/* banner section  */
+.banner-section{
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+
+}
+.custom-banner{
+    position: absolute;
+    top: 400px;
+}
+/* .carousel .heading{
+    padding: 463px 0;
+} */
+.carousel h3 {
+    font-size: 38px;
+    width: 46%;
+    line-height: 50px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-family: 'Raleway';
+}
+.carousel h1 {
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.carousel p {
+    font-size: 20px;
+    font-weight: 200;
+    width: 44%;
+    margin-bottom: 1rem;
+}
+.carousel a {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.carousel a:hover {
+    color: #39426d;
+    
+}
+/* banner section  */
+
+/* about section  */
+.about{
+    margin-top: 100px;
+}
+.about h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.about .row{
+margin-top: 50px;
+}
+.about .about-me{
+ 
+}
+.about .about-me h1 {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.about .about-me span {
+    font-family: 'Raleway';
+    font-weight: 600 !important;
+}
+.about .about-me p {
+    font-family: 'Raleway';
+    font-weight: 200;
+    margin-bottom: 16px;
+}
+.about .about-me button {
+    background: #333;
+    padding: 9px 18px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 11px;
+    padding-bottom: 48px;
+    font-family: 'Raleway';
+}
+.about .about-me button:hover {
+    background: rgb(92, 92, 92);
+    
+}
+.about .about-exprience{
+    
+}
+.about .about-exprience h1{
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.about .about-exprience span{
+    font-weight: 600 !important;
+}
+.about .about-exprience p{
+    font-weight: 200;
+}
+.about .about-exprience h6{
+
+}
+.about .about-exprience p {
+    margin-bottom: 25px;
+}
+
+.about .about-exprience .progress-bar{
+}
+/* about section  */
+
+/* about--info  */
+.about-info{
+    margin-top: 50px;
+}
+.about-info .s6 {
+    width: 48% !important;
+}
+.about-info .custome{
+   background-color: #f9f9f9;
+    padding: 30px 30px;
+}
+.about-info .custome h1{
+    font-weight: 300;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.about-info .about-header {
+    padding: 10px 20px;
+    box-shadow: 2px 5px 16px 0px #8a939d, 5px 5px 15px 5px rgb(255 255 255 / 3%);
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+.about-info .about-header:hover {
+    
+    box-shadow: 2px 5px 16px 0px #cbd6e4, 5px 5px 15px 5px rgb(255 255 255 / 3%);
+}
+.about-info .about-header p{
+margin-bottom: 10px;
+}
+.about-info .about-header h6{
+    font-weight: 600;
+    font-size: 20px;
+}
+.space{
+    margin-right: 20px;
+}
+/* about--info  */
+
+/* portfolio */
+.service{
+margin-top: 100px;
+background: #f9f9f9;
+padding-top: 50px;
+padding-bottom: 50px;;
+
+}
+#service .s4 {
+    width: 31% !important;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.service img{
+transition: 0.4s;
+}
+.service img:hover{
+opacity: .6;
+}
+.service .header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.service .header h1{
+text-align: center;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+.service .box{
+border: 1px solid #3330;
+padding: 20px 30px;
+text-align: center;
+margin-right: 0px;
+box-shadow: 2px 5px 16px 0px #d1d1d1, 14px -6px 21px -2px rgb(255 255 255 / 0%);
+transition: 0.4s;
+}
+.box h2{
+font-family: lato;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 20px;
+margin-top: 28px;
+margin-bottom: 15px;
+text-transform: uppercase;
+}
+.box p{
+width: 273px;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+margin: 0 auto;
+transition: 0.4s;
+}
+.box1{
+    background: rgba(51, 51, 51, 0.068);
+    transition: 0.4s;
+}
+.box1:hover{
+   background: rgba(255, 255, 255, 0) !important; 
+  box-shadow: 2px 5px 16px 0px #868686, 14px -6px 21px -2px rgb(255 255 255 / 0%);
+}
+.box:hover{
+  box-shadow: 2px 5px 16px 0px #868686, 14px -6px 21px -2px rgb(255 255 255 / 0%);
+   background: rgba(51, 51, 51, 0.068);
+}
+/* portfolio */
+
+/* contact */
+.pricing-table{
+    margin-top: 100px;
+}
+.pricing-table h1{
+    text-align: center;
+}
+.pricing-table{
+       text-align: center;
+}
+.pricing {
+    border: 1px solid #ff000000;
+     padding-bottom: 29px;
+     background-color: #fff;
+     transition: 0.4s;
+}
+.pricing:hover {
+    transform: scale(1.08);
+} 
+.pricing-table .header {
+    background: linear-gradient(#c337648f,#1d267191);
+    
+    padding: 45px 0;
+    
+}
+.pricing-table .header1 {
+    padding: 45px 0;
+    margin-bottom: 25px;
+    background: linear-gradient(#36d1dc, #5b86e5cf);
+}
+.pricing-table .header2 {
+    padding: 45px 0;
+    margin-bottom: 25px;
+    background: linear-gradient(#ff5f6dd6, #ffc371cc);
+}
+
+.pricing-table  h1{
+    font-style: normal;
+font-weight: 800;
+font-size: 38px;
+line-height: 20px;
+margin-bottom: 36px;
+color: #333;
+text-transform: uppercase;
+}
+.pricing-table .pricing  h1{
+font-size:30px;
+line-height: 20px;
+margin-bottom: 36px;
+color: #333;
+font-weight: 600;
+text-transform: uppercase;
+font-family: 'Lato';
+}
+.pricing span{
+font-size:18px;
+}
+.pricing-table  h4{
+font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 38px;
+line-height: 20px;
+color: #FFFFFF;
+}
+.pricing-table .custom {
+    margin-top: -1px;
+    padding: 13px 0;
+}
+.pricing-table .custom1 {
+     margin-top: -1px;
+    padding: 13px 0;
+   background:linear-gradient(#36d1dc, #5b86e5cf);
+  
+}
+.pricing-table .custom2 {
+    margin-top: -1px;
+    padding: 13px 0;
+    background:linear-gradient(#ff5f6dd6, #ffc371cc);
+}
+.pricing-table h3{
+font-family: 'Lato';
+font-weight: 500;
+font-size: 30px;
+line-height: 20px;
+color: #333333;
+
+}
+
+.pricing-table button {
+    background: linear-gradient(#c337648f,#1d267191);
+    padding: 10px 30px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.4s;
+    color: #fff;
+    padding-bottom: 51px;
+    margin-top: 21px;
+}
+.custom1btn{
+ background: linear-gradient(#36d1dc, #5b86e5cf) !important;
+}
+.custom2btn{
+  background: linear-gradient(#ff5f6dd6, #ffc371cc) !important;
+}
+/* Pricing */
+
+
+.footer-section{
+margin-top: 100px;
+background-color: #BFBFBF;
+padding: 30px 0;
+padding-top: 50px;
+}
+.footer-section h1{
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 20px;
+color: #333333;
+margin-bottom: 15px;
+}
+.footer-section p{
+font-style: normal;
+width: 150px;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+color: #000000;
+}
+.footer-section ul{
+ text-decoration: none;
+ padding-left: 0px !important;
+}
+.footer-section li{
+ list-style: none;
+}
+.footer-section button {
+    margin-left: -62px !important;
+    padding: 0 21px !important;
+    border-top-right-radius: 21px !important;
+    border-bottom-right-radius: 20px !important;
+}
+.btn-outline-secondary {
+    border-radius: 0px !important;
+ 
+}
+.footer-section .img{
+    margin-top: 47px;
+}
+.form-control {
+    width: 100%;
+    height: 35px !important;
+    padding: 0px 15px !important;
+    line-height: 1 !important;
+    background-color: #fff0 !important;
+    border: 1px solid #333 !important;
+   border-radius: 15px !important;
+}
+.cbtn{
+    display: flex !important;
+    
+}
+.btn-outline-secondary {
+    color: #fff;
+    border-color: #333;
+    background-color: #333;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+footer{
+    
+    background-color: #333;
+    margin-bottom: 0px;
+}
+footer p{
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Lato';
+}
